@@ -13,27 +13,27 @@
 ![Supports i386 Architecture][i386-shield]
 
 ## What is it?
-This [Home Assistant](https://www.home-assistant.io/) add-on uses the [GoSungrow](https://github.com/MickMake/GoSungrow) GoLang package to query the iSolarCloud API and provide all data on your solar array within [Home Assistant](https://www.home-assistant.io/).
+This [Home Assistant](https://www.home-assistant.io/) add-on uses the [GoSungrow](https://github.com/mda342/GoSungrow) GoLang package to query the iSolarCloud API and provide all data on your solar array within [Home Assistant](https://www.home-assistant.io/).
 
 The iSolarCloud interface is kinda nice, but it's not Open Source...
 
 |                                              iSolarCloud                                              |                                              GoSunGrow HA                                               |
 |:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
-| ![iSolarCloud](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/UX-iSolarCloud.png) | ![GoSunGrow-HA](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/UX-GoSunGrow-HA.png) |
+| ![iSolarCloud](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/UX-iSolarCloud.png) | ![GoSunGrow-HA](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/UX-GoSunGrow-HA.png) |
 
 So, now you can get to everything using [Home Assistant](https://www.home-assistant.io/).
 
 |                                              -                                              |                                              -                                               |
 |:-------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| ![LoveLace-Basic1.png](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic1.png) | ![LoveLace-Basic2.png](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic2.png) |
+| ![LoveLace-Basic1.png](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic1.png) | ![LoveLace-Basic2.png](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic2.png) |
 | | |
-| ![LoveLace-Basic3.png](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic3.png) | ![LoveLace-Basic4.png](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic4.png) |
+| ![LoveLace-Basic3.png](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic3.png) | ![LoveLace-Basic4.png](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic4.png) |
 | | |
-| ![LoveLace-Basic5.png](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic5.png) | ![LoveLace-Basic6.png](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic6.png) |
+| ![LoveLace-Basic5.png](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic5.png) | ![LoveLace-Basic6.png](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/LoveLace-Basic6.png) |
 | | |
 
 
 ## Further docs
-[Install and configure](https://github.com/MickMake/HomeAssistantAddons/blob/main/GoSungrow/DOCS.md)
+[Install and configure](https://github.com/mda342/HomeAssistantAddons/blob/main/GoSungrow/DOCS.md)
 
-[GoSunGrow](https://github.com/MickMake/GoSunGrow/)
+[GoSunGrow](https://github.com/mda342/GoSunGrow/)

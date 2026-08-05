@@ -81,7 +81,7 @@ fi
 
 echo bashio::log.info "Downloading file \"${FILENAME}\" from repo \"${URL}\" ..."
 # cd /tmp
-# wget -O- https://github.com/MickMake/GoSungrow/releases/download/v${GOSUNGROW_VERSION}/GoSungrow-linux_${ARCH}.tar.gz | tar zxvf - GoSungrow
+# wget -O- https://github.com/mda342/GoSungrow/releases/download/v${GOSUNGROW_VERSION}/GoSungrow-linux_${ARCH}.tar.gz | tar zxvf - GoSungrow
 wget --show-progress -q "${RETURN}"
 checkExit
 

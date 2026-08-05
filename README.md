@@ -5,19 +5,19 @@ This repository contains Hass.io add-ons. All add-ons in this repository are tes
 ### Installation
 1. Navigate in your Home Assistant frontend to <kbd>Supervisor</kbd> -> <kbd>Add-on Store</kbd>.
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot1.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot1.png)
 
 2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/mda342/HomeAssistantAddons](https://github.com/mda342/HomeAssistantAddons)
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot2.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot2.png)
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot3.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot3.png)
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4.png)
 
 3. Scroll down the page to find the new repository, and click the new add-on named you want. Ex:
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4b.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4b.png)
 
 4. Click <kbd>Install</kbd> and give it a few minutes to finish downloading.
 
@@ -29,7 +29,7 @@ Enable `Auto update` on the desired add-on or browse Hassio Add-on Store Tab to 
 
 # Add-ons in this Repository
 
-### [GoSunGrow for HA](https://github.com/MickMake/HomeAssistantAddons/tree/main/GoSungrow)
+### [GoSunGrow for HA](https://github.com/mda342/HomeAssistantAddons/tree/main/GoSungrow)
 My iSolarCloud API interface for [Home Assistant](https://www.home-assistant.io/).
 
-The [GoSunGrow](https://github.com/MickMake/GoSunGrow/) API interface doesn't just do HA, but a lot more.
+The [GoSunGrow](https://github.com/mda342/GoSunGrow/) API interface doesn't just do HA, but a lot more.

@@ -18,29 +18,29 @@ Install in the usual manner.
 
 1. Go to Configuration -> Add-ons.
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot1.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot1.png)
 
 2. Add the mda342 HA Repository.
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot2.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot2.png)
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot3.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot3.png)
 
 3. Once added, it will appear in the list of add-on repositories.
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4.png)
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4b.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot4b.png)
 
 4. Install the add-on and click Configuration.
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot5.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot5.png)
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot5b.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot5b.png)
 
 5. Set the config options.
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot6.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot6.png)
 
 The following options are mandatory:
 - sungrow_user
@@ -61,7 +61,7 @@ The rare occasion:
 
 5. Start it up!
 
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot7.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot7.png)
 
 
 ## Adding a specific MQTT user account.
@@ -69,19 +69,19 @@ The rare occasion:
 If you want to add a different user for MQTT, then here's how.
 
 1. Click on "Add User".
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt1.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt1.png)
 
 2. Create your user.
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt2.png)
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt3.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt2.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt3.png)
 
 3. For extra security, toggle "Can only login from olocal network."
-![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt4.png)
+![Install add-on](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/mqtt4.png)
 
 
 ## Lovelace examples
 
-[These are the Lovelace YAML files](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace) and images I use for my HA instance:
+[These are the Lovelace YAML files](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace) and images I use for my HA instance:
 
 You'll need to modify the ps_id and ps_keys within these files to display the correct info. Any text editor can do a global search and replace.
 
@@ -89,7 +89,7 @@ You can use the GoSungrow tool to get this info:
 
 `GoSungrow show ps tree`
 
-Also grab the images from the [images directory](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images) and place them in your /config/www directory.
+Also grab the images from the [images directory](https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images) and place them in your /config/www directory.
 
 
 ## HA's Energy Dashboard
@@ -110,4 +110,4 @@ To use HA's Energy Dashboard, you'll need to find the following entries. Make su
 
 
 ## About GoSunGrow
-See the docs here [GoSunGrow](https://github.com/MickMake/GoSunGrow/)
+See the docs here [GoSunGrow](https://github.com/mda342/GoSunGrow/)

@@ -3,40 +3,40 @@
 
 ## What is it?
 
-This [Home Assistant](https://www.home-assistant.io/) add-on uses the [GoSungrow](https://github.com/MickMake/HomeAssistantAddons/GoSungrow) GoLang package to query the iSolarCloud API and provide all data on your solar array within [Home Assistant](https://www.home-assistant.io/).
+This [Home Assistant](https://www.home-assistant.io/) add-on uses the [GoSungrow](https://github.com/mda342/HomeAssistantAddons/GoSungrow) GoLang package to query the iSolarCloud API and provide all data on your solar array within [Home Assistant](https://www.home-assistant.io/).
 
 The iSolarCloud interface is kinda nice, but it's not Open Source...
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/iSolarCloud.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/iSolarCloud.png?raw=true)
 
 So, now you can get to everything using [Home Assistant](https://www.home-assistant.io/).
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO1.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO1.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO2.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO2.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO3.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO3.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO4.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO4.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO5.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/SunGrowOnHASSIO5.png?raw=true)
 
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana1.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana1.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana2.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana2.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana3.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana3.png?raw=true)
 
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana4.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/Grafana4.png?raw=true)
 
 
 ## What state is it in?
 
-See the docs here [GoSunGrow](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/README.md?raw=true)
+See the docs here [GoSunGrow](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/README.md?raw=true)
 
 
 ## What does it do?
 
-See the docs here [GoSunGrow](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/README.md?raw=true)
+See the docs here [GoSunGrow](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/README.md?raw=true)
 
 
 ## Using GoSungrow:
@@ -179,18 +179,18 @@ $ ./bin/GoSungrow data get template-points 8040
 
 $ ./bin/GoSungrow data graph template 8042 20220224 '{"search_string":"p13019"}'
 ```
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220224-8042-InternalAirTemperature.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220224-8042-InternalAirTemperature.png?raw=true)
 
 Produce graphs of all points from template 8042 for date 2022/02/28 with a different width and height.
 ```
 $ ./bin/GoSungrow data graph template 8042 20220228 '{"width":2400,"height":500}'
 ```
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-PurchasedPower.png?raw=true)
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-LoadPower.png?raw=true)
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-BatteryTemperature.png?raw=true)
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-InternalAirTemperature.png?raw=true)
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-BatteryChargingPower.png?raw=true)
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-BatteryDischargingPower.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-PurchasedPower.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-LoadPower.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-BatteryTemperature.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-InternalAirTemperature.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-BatteryChargingPower.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8042-BatteryDischargingPower.png?raw=true)
 
 Produce daily report for point_id p83106 for date 2022/02/24.
 ```
@@ -264,7 +264,7 @@ Get mains power frequency variation graph from template id 8041 on date 2022/02/
 ```
 ./bin/GoSungrow data graph template 8041 20220228 '{"search_string":"p13007","min_left_axis":49,"max_left_axis":51}'
 ```
-![alt text](https://github.com/MickMake/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8041-GridFrequency.png?raw=true)
+![alt text](https://github.com/mda342/HomeAssistantAddons/GoSungrow/blob/master/docs/AppService_queryMutiPointDataList-20220228-8041-GridFrequency.png?raw=true)
 
 
 ### Using the API instead.

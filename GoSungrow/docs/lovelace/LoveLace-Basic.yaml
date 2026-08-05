@@ -16,14 +16,14 @@ views:
             type: grid
             cards:
               - type: picture-elements
-                image: https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy3.png
+                image: https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy3.png
                 elements:
                   - type: image
                     entity: >-
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_grid_power_active
                     tap_action: none
                     state_image:
-                      'off': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-GridOff.png
+                      'off': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-GridOff.png
                     state_filter:
                       'off': opacity(100%)
                       'on': opacity(0%)
@@ -36,7 +36,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_battery_power_active
                     tap_action: none
                     state_image:
-                      'off': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-BatteryOff.png
+                      'off': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-BatteryOff.png
                     state_filter:
                       'off': opacity(100%)
                       'on': opacity(0%)
@@ -49,7 +49,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_load_power_active
                     tap_action: none
                     state_image:
-                      'off': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-LoadOff.png
+                      'off': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-LoadOff.png
                     state_filter:
                       'off': opacity(100%)
                       'on': opacity(0%)
@@ -62,7 +62,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_pv_power_active
                     tap_action: none
                     state_image:
-                      'off': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVOff.png
+                      'off': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVOff.png
                     state_filter:
                       'off': opacity(100%)
                       'on': opacity(0%)
@@ -75,7 +75,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_pv_to_battery_power_active
                     tap_action: none
                     state_image:
-                      'on': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVToBattery.png
+                      'on': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVToBattery.png
                     state_filter:
                       'on': opacity(100%)
                       'off': opacity(0%)
@@ -88,7 +88,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_pv_to_load_power_active
                     tap_action: none
                     state_image:
-                      'on': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVToLoad.png
+                      'on': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVToLoad.png
                     state_filter:
                       'on': opacity(100%)
                       'off': opacity(0%)
@@ -101,7 +101,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_pv_to_grid_power_active
                     tap_action: none
                     state_image:
-                      'on': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVToGrid.png
+                      'on': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-PVToGrid.png
                     state_filter:
                       'on': opacity(100%)
                       'off': opacity(0%)
@@ -114,7 +114,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_battery_to_load_power_active
                     tap_action: none
                     state_image:
-                      'on': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-BatteryToLoad.png
+                      'on': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-BatteryToLoad.png
                     state_filter:
                       'on': opacity(100%)
                       'off': opacity(0%)
@@ -127,7 +127,7 @@ views:
                       binary_sensor.gosungrow_virtual_1171348_14_1_2_grid_to_load_power_active
                     tap_action: none
                     state_image:
-                      'on': https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-GridToLoad.png
+                      'on': https://github.com/mda342/HomeAssistantAddons/raw/main/GoSungrow/docs/lovelace/images/SungrowEnergy2-GridToLoad.png
                     state_filter:
                       'on': opacity(100%)
                       'off': opacity(0%)
