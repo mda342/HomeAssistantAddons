@@ -1,3 +1,10 @@
+## [3.0.9] - 2026-08-05
+### Fork build (mda342)
+
+- Drop `last_reset_value_template` from non-energy total sensors (it errored on
+  every state payload, which never carries a `last_reset` key).
+
+
 ## [3.0.8] - 2026-08-05
 ### Fork build (mda342)
 
