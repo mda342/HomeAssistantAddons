@@ -1,3 +1,13 @@
+## [3.0.8] - 2026-08-05
+### Fork build (mda342)
+
+- Add-on now fetches the GoSungrow binary release from the mda342 fork, which
+  carries Home Assistant 2026.7 compatibility fixes:
+  kWp/Wh/m² device classes, energy `total_increasing` state class without
+  `last_reset`, no state_class on string sensors, entity categories, unit
+  normalization.
+
+
 ## [3.0.7] - 2023-09-04
 ### Features
 

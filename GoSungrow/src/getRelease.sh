@@ -58,7 +58,7 @@ esac
 ARCH="${OS}_${HW}"
 
 REPO="GoSungrow"
-URL="https://api.github.com/repos/MickMake/${REPO}/releases/latest"
+URL="https://api.github.com/repos/mda342/${REPO}/releases/latest"
 
 echo bashio::log.info "Searching for architecture type \"${ARCH}\" on repo \"${URL}\" ..."
 
