@@ -1,3 +1,13 @@
+## [3.0.12] - 2026-08-05
+### Fork build (mda342)
+
+- `getRelease.sh` now runs the downloaded binary (`GoSungrow help`) at build
+  time and aborts the build if it cannot execute. The 3.0.11 image carried the
+  cached glibc binary because `config.yaml` (repo root) is not part of the
+  `COPY src/` layer, so the download step never re-ran; the execution check
+  guarantees a future build ships a working binary or fails loudly.
+
+
 ## [3.0.11] - 2026-08-05
 ### Fork build (mda342)
 

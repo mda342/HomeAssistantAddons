@@ -98,5 +98,8 @@ rm -f "${FILENAME}"
 ls -l "/usr/local/bin/${REPO}"
 sha256sum "/usr/local/bin/${REPO}"
 
+echo bashio::log.info "Verifying the binary runs ..."
+"/usr/local/bin/${REPO}" help >/dev/null 2>&1 || { echo bashio::log.error "GoSungrow binary failed to execute (wrong architecture or libc for this image). Aborting build."; exit 1; }
+
 echo bashio::log.info "Done! You're ready to go!"
 
