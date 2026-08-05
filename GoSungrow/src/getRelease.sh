@@ -96,6 +96,7 @@ chmod a+x "${REPO}"
 mv "${REPO}" /usr/local/bin
 rm -f "${FILENAME}"
 ls -l "/usr/local/bin/${REPO}"
+sha256sum "/usr/local/bin/${REPO}"
 
 echo bashio::log.info "Done! You're ready to go!"
 

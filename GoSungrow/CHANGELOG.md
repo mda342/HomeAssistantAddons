@@ -1,3 +1,10 @@
+## [3.0.10] - 2026-08-05
+### Fork build (mda342)
+
+- Log the downloaded binary's sha256 at build time so the running image can be
+  verified against the fork release.
+
+
 ## [3.0.9] - 2026-08-05
 ### Fork build (mda342)
 
