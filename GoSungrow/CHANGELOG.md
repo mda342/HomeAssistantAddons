@@ -1,3 +1,13 @@
+## [3.0.11] - 2026-08-05
+### Fork build (mda342)
+
+- Rebuild the fork release binaries as statically-linked (`CGO_ENABLED=0`).
+  The previous build linked against glibc, which cannot exec on the Alpine base
+  image (add-on failed at startup: `/usr/local/bin/GoSungrow: No such file or
+  directory`). The amd64 binary now has sha256 `4e563b1282c212540f022b144bff
+  2829d8e00dcc97993609159bf9ca9d552e34`.
+
+
 ## [3.0.10] - 2026-08-05
 ### Fork build (mda342)
 
