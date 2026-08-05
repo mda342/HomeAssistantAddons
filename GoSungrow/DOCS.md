@@ -20,7 +20,7 @@ Install in the usual manner.
 
 ![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot1.png)
 
-2. Add the MickMake HA Repository.
+2. Add the mda342 HA Repository.
 
 ![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot2.png)
 

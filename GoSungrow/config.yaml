@@ -1,10 +1,10 @@
 name: "GoSungrow"
 description: "Fetch data from isolarcloud.com and push to HA."
-version: "3.0.12"
+version: "3.0.13"
 stage: "stable"
 slug: "gosungrow"
 url: "https://github.com/mda342/GoSungrow/"
-codenotary: "mick@mickmake.com"
+codenotary: "17591632+mda342@users.noreply.github.com"
 arch:
   - armhf
   - armv7

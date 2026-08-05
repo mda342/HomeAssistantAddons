@@ -7,7 +7,7 @@ This repository contains Hass.io add-ons. All add-ons in this repository are tes
 
 ![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot1.png)
 
-2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/MickMake/HomeAssistantAddons](https://github.com/MickMake/HomeAssistantAddons)
+2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/mda342/HomeAssistantAddons](https://github.com/mda342/HomeAssistantAddons)
 
 ![Install add-on](https://github.com/MickMake/HomeAssistantAddons/raw/main/GoSungrow/docs/ScreenShot2.png)
 

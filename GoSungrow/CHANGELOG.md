@@ -1,3 +1,19 @@
+## [3.0.13] - 2026-08-05
+### Fork build (mda342)
+
+- Rebrand the fork: user-visible MQTT discovery strings now identify as mda342
+  (`sw_version` and `manufacturer`), the add-on repository metadata, maintainer
+  emails, and donation links point to mda342 instead of MickMake. Go module
+  paths and historical links are unchanged. Requires the rebuilt release
+  binaries.
+
+- The `sw_version` shown in the HA device registry is now
+  `GoSungrow https://github.com/mda342/GoSungrow` and `manufacturer` is
+  `mda342`. Rebuilt release assets are statically-linked
+  (`CGO_ENABLED=0`); amd64 tarball sha256
+  `20918c070f03ec9cfc652993419a096718de26015e2939ef818f6ca2356b48c2`.
+
+
 ## [3.0.12] - 2026-08-05
 ### Fork build (mda342)
 

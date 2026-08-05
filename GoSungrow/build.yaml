@@ -4,7 +4,7 @@ build_from:
   armhf: ghcr.io/home-assistant/armhf-base:3.16
   armv7: ghcr.io/home-assistant/armv7-base:3.16
 codenotary:
-  signer: mick@mickmake.com
-  base_image: mick@mickmake.com
+  signer: 17591632+mda342@users.noreply.github.com
+  base_image: 17591632+mda342@users.noreply.github.com
 args:
   GOSUNGROW_VERSION: 3.0.7
