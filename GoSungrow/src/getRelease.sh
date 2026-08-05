@@ -98,6 +98,30 @@ rm -f "${FILENAME}"
 ls -l "/usr/local/bin/${REPO}"
 sha256sum "/usr/local/bin/${REPO}"
 
+echo bashio::log.info "Verifying the binary sha256 ..."
+EXPECTED_SHA=""
+case "${HW}" in
+	'amd64')
+		EXPECTED_SHA="20918c070f03ec9cfc652993419a096718de26015e2939ef818f6ca2356b48c2"
+		;;
+
+	'arm64')
+		EXPECTED_SHA="21abc4830c16321f29f998eda440ea0a908612c4fbc8cd6d965ac41e7a2a6828"
+		;;
+
+	'arm_6')
+		EXPECTED_SHA="ecd619087ae79a4f40c258db9d29876aaf0ade4eddfe01eb1ffc65840a7f8e53"
+		;;
+esac
+
+ACTUAL_SHA="$(sha256sum "/usr/local/bin/${REPO}" | awk '{print $1}')"
+if [ -n "${EXPECTED_SHA}" ] && [ "${ACTUAL_SHA}" != "${EXPECTED_SHA}" ]
+then
+	echo bashio::log.error "GoSungrow binary sha256 mismatch (expected ${EXPECTED_SHA}, got ${ACTUAL_SHA}). Aborting build."
+	exit 1
+fi
+echo bashio::log.info "sha256 verified."
+
 echo bashio::log.info "Verifying the binary runs ..."
 "/usr/local/bin/${REPO}" help >/dev/null 2>&1 || { echo bashio::log.error "GoSungrow binary failed to execute (wrong architecture or libc for this image). Aborting build."; exit 1; }
 

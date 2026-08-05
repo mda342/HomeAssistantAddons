@@ -1,3 +1,15 @@
+## [3.0.14] - 2026-08-05
+### Fork build (mda342)
+
+- `getRelease.sh` now verifies the downloaded binary's sha256 against the
+  expected per-architecture value before installing it. This also busts the
+  Docker build cache for the `COPY src/` layer, which the 3.0.13 build reused
+  (that layer is unchanged between releases, so the old pre-rebrand binary was
+  baked in and the rebranded `sw_version`/`manufacturer` never reached the
+  image). The download step now re-runs and must pass both the sha256 check and
+  the execution check.
+
+
 ## [3.0.13] - 2026-08-05
 ### Fork build (mda342)
 
