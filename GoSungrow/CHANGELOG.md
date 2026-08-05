@@ -1,3 +1,15 @@
+## [3.0.15] - 2026-08-05
+### Fork build (mda342)
+
+- Complete the rebrand of the sensor device discovery: parent devices created by
+  `SetDeviceConfig` now advertise `sw_version` as
+  `GoSungrow https://github.com/mda342/GoSungrow` and the default vendor is
+  `mda342`. The 3.0.14 image only rebranded the "Service" device; the sensor
+  devices still showed the MickMake URL/vendor. Rebuilt binaries verified by
+  sha256 in `getRelease.sh` (amd64
+  `c60116258f0955708e8f32d7c74ef7ba6b36c73a57a9dcaa70e39136b52914ea`).
+
+
 ## [3.0.14] - 2026-08-05
 ### Fork build (mda342)
 

@@ -102,15 +102,15 @@ echo bashio::log.info "Verifying the binary sha256 ..."
 EXPECTED_SHA=""
 case "${HW}" in
 	'amd64')
-		EXPECTED_SHA="75960593f8b98e28c45e6e73a51cad4489ebdaf61accd8000f6d8b75e142d267"
+		EXPECTED_SHA="c60116258f0955708e8f32d7c74ef7ba6b36c73a57a9dcaa70e39136b52914ea"
 		;;
 
 	'arm64')
-		EXPECTED_SHA="443a7ff4a539bfd52ca2ad4e2648b250c4c8bd530b9cc4114087c99dde0e8ddf"
+		EXPECTED_SHA="cc4f08a831a2add2e390dc72cfbcef1c25f1aeae900fee3a3b9ff418f11b7273"
 		;;
 
 	'arm_6')
-		EXPECTED_SHA="a141a2774a1d607bfe9ba6357508edde38fcec7e41b85a66f2e2abada7014450"
+		EXPECTED_SHA="dd32f18bec1087d55c57a4b13488039d76d2e33a19b70d98ec5e2aa2b6416b1a"
 		;;
 esac
 
