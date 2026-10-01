@@ -1,3 +1,15 @@
+## [3.0.16] - 2026-10-01
+### Fork build (mda342)
+
+- Fix via_device circular reference in MQTT discovery payload.
+  ViaDevice was set to swname (software name) for all devices, causing
+  a circular reference when swname == parentId (root device). This
+  resulted in "A device can not be its own via device" errors when
+  Home Assistant tried to register MQTT select entities.
+- Fix: Only set ViaDevice when there is an actual parent device
+  (swname != parentId). Root devices now have an empty ViaDevice.
+- Rebuilt binaries verified by sha256 in `getRelease.sh`.
+
 ## [3.0.15] - 2026-08-05
 ### Fork build (mda342)
 
