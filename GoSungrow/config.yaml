@@ -1,6 +1,6 @@
 name: "GoSungrow"
 description: "Fetch data from isolarcloud.com and push to HA."
-version: "3.0.16"
+version: "3.0.17"
 stage: "stable"
 slug: "gosungrow"
 url: "https://github.com/mda342/GoSungrow/"
@@ -45,4 +45,6 @@ schema:
   mqtt_password: password
   debug: bool?
   sungrow_timeout: int?
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  # Only these four are honoured by the app. trace/notice/fatal were accepted
+  # here but unsupported, and silently fell back to info.
+  log_level: list(debug|info|warning|error)?

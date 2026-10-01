@@ -34,6 +34,9 @@ export GOSUNGROW_HOST="$(jq --raw-output '.sungrow_host // empty' ${CONFIG_PATH}
 
 export GOSUNGROW_APPKEY="$(jq --raw-output '.sungrow_appkey // empty' ${CONFIG_PATH})"
 export GOSUNGROW_DEBUG="$(jq --raw-output '.debug // empty' ${CONFIG_PATH})"
+# log_level is deliberately left empty when unset, so that "debug: true" still
+# wins. Only one of the two should be needed; log_level: debug is equivalent.
+export GOSUNGROW_LOG_LEVEL="$(jq --raw-output '.log_level // empty' ${CONFIG_PATH})"
 export GOSUNGROW_TIMEOUT="$(jq --raw-output '.sungrow_timeout|tostring + "s" // empty' ${CONFIG_PATH})"
 
 

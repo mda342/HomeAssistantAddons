@@ -1,3 +1,41 @@
+## [3.0.17] - 2026-10-01
+### Fork build (mda342)
+
+- Fix `--debug` was a no-op. It was parsed into `ca.Debug` but never applied to
+  any logger: both loggers are constructed during `init()` before flags are
+  parsed, and `cmdLog.Log` keeps its level in a private field with no
+  package-level state. `debug: true` in the add-on config therefore did nothing.
+  Debug output previously seen in the log came from the `mqtt_loglevel` select,
+  which writes to the logger directly via `funcMqttLogLevel`.
+- Add `--log-level` flag, backed by `GOSUNGROW_LOG_LEVEL`. The add-on schema has
+  always declared `log_level`, but the binary had no way to read it, so the
+  option did nothing. An explicit `--log-level` wins over `--debug`.
+- `log_level` schema narrowed to `list(debug|info|warning|error)`. `trace`,
+  `notice` and `fatal` were offered in the UI but are not implemented by
+  `cmdLog`, which silently fell back to `info`.
+- `NewDevice` reported an unregistered parent device via `cmdLog.LogPrintDate`
+  and returned no error, so every caller treated it as "skip". An entity whose
+  parent was missing published nothing at all, with no trace in the log. It now
+  logs once at INFO naming the skipped entity.
+- Hardening: `CreateOption`/`SetOption` now nil-check `EntityConfig(id)`
+  (unreachable in the normal flow).
+- Hardening: a root device (`deviceKey == ParentName`) no longer inherits the
+  parent's `via_device`, which pointed a device at itself.
+
+### Not fixed here
+
+- The 5 `select` option entities (`select.gosungrow_options_options_*`) were
+  `unavailable` from before the 2026-10-01 host restart. This was **not** caused
+  by the via_device change in 3.0.16. The add-on publishes correct, retained
+  discovery payloads for `/config`, `/state` and `/cmd` on well-formed topics;
+  the entities were stale restored registry entries that Home Assistant did not
+  recreate. A host restart cleared it with no code change.
+
+### Note
+
+- `GoSungrow version` still reports `v3.0.7`; that string is hardcoded in the
+  repository and is not derived from the tag. Pre-existing, left alone.
+
 ## [3.0.16] - 2026-10-01
 ### Fork build (mda342)
 
